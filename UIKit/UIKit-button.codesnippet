@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private let &lt;#UIButton#&gt; = UIButton().then {
+    $0.setImage(&lt;#UIImage#&gt;, for: .normal)
+    $0.setTitle(&lt;#T##title: String?##String?#&gt;, for: &lt;#T##UIControl.State#&gt;)
+    $0.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: &lt;#T##UIControl.State#&gt;)
+    $0.titleLabel?.textAlignment = .center
+    $0.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .bold)
+    $0.setBackgroundImage(&lt;#UIColor#&gt;, for: .normal)
+    $0.setBackgroundImage(&lt;#UIColor#&gt;, for: .disabled)
+    $0.layer.cornerRadius = &lt;#CGFloat#&gt;
+    $0.clipsToBounds = true
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>65A70885-F9D1-4DB4-A780-B144D67AAB3A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

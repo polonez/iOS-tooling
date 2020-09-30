@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>stackview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private let &lt;#UIStackView#&gt; = UIStackView().then {
+    $0.axis = &lt;#NSLayoutConstraint.Axis#&gt;
+    $0.alignment = &lt;#UIStackView.Alignment#&gt;
+    $0.distribution = &lt;#UIStackView.Distribution#&gt;
+    $0.spacing = &lt;#spacing#&gt;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>66C4BDD4-3B35-4109-A71C-E2F52C275E3A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>stackview</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>stackview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
