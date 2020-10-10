@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>alert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let alertController = UIAlertController(title: &lt;#T##String?#&gt;, message: &lt;#T##String?#&gt;, preferredStyle: &lt;#T##UIAlertControllerStyle#&gt;)
+        let defaultAction = UIAlertAction(title: &lt;#T##String?#&gt;, style: .default) { (action) in
+            &lt;#code#&gt;
+        }
+        let destructiveAction = UIAlertAction(title: &lt;#T##String?#&gt;, style: .destructive) { (action) in
+            &lt;#code#&gt;
+        }
+        let cancelAction = UIAlertAction(title: &lt;#T##String?#&gt;, style: .cancel) { (action) in
+            &lt;#code#&gt;
+        }
+        alertController.addAction(defaultAction)
+        alertController.addAction(destructiveAction)
+        alertController.addAction(cancelAction)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6461311F-85A8-42BA-8443-79BDB100DA94</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIAlertController with actions</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIKit-alert</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
